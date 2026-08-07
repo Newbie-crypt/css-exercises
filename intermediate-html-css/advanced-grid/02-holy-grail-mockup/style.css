@@ -136,3 +136,8 @@ body {
   display: grid;
   align-items: center;
 }
+
+.nav > ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
